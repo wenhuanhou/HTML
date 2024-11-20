@@ -1,8 +1,7 @@
 function sortHouse() {
-    // Prompt the user for their name
+
     const name = prompt("Enter your name:");
 
-    // Check if a name was entered
     if (name) {
 
         const houseNumber = Math.floor(Math.random() * 4) + 1;
